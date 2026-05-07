@@ -1,0 +1,156 @@
+/* GENERAL STYLES */
+ /* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+/* BODY */
+body { margin-top: 30px;
+	font-size: 14px;
+	color: white;
+	background: #f7f1e8;
+	font-family: Poppins, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+.top-header {
+	height: 100vh;
+	background-size: cover;
+	overflow: hidden;
+	color: black;
+	z-index: 2;
+	width: 100%;
+	position: relative;
+}
+
+.main-section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+/* Nave bar */
+/******* NAVBAR SECTION NAVBAR SECTION*******/
+.navbar-brand img {
+	width: auto;
+	height: 70px;
+}
+.collapse {
+	position: relative;
+	top: -4px;
+}
+.navbar-nav {
+	margin-top: 10px;
+}
+.navbar-nav .nav-item {
+	margin-right: 15px;
+}
+.navbar-nav .nav-link {
+	font-weight: 500;
+	color: white;
+	font-size: 16px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	margin-left: 32px;
+	margin-top: 12px;
+}
+.nav-link {
+	margin-left: 10px !important;
+}
+.navbar-expand-lg .navbar-collapse {
+	justify-content: left;
+}
+
+
+
+/* Media Queries */
+/* for mobile devices */
+@media screen and (max-width:768px) {
+	.navbar-collapse {
+		position: absolute;
+		width: 100%;
+		left: 0px;
+		top: 65px;
+		padding-left: 20px;
+		padding-bottom: 40px;
+	}
+	.navbar-toggler {
+		float: right;
+		position: relative;
+		top: 15px;
+		font-size: 20px;
+	}
+	nav .social-media a {
+		color: #fff;
+		font-size: 25px;
+		top: 12px;
+		position: relative;
+		margin-right: 20px;
+	}
+}
+
+/* for tablets */
+@media screen and  (max-width: 1024px) { 	.navbar-collapse {
+		position: absolute;
+		width: 100%;
+		left: 0px;
+		top: 70px;
+		padding-left: 10px;
+		padding-bottom: 20px;
+	}
+	.navbar-toggler {
+		float: right;
+		position: relative;
+		top: 15px;
+		font-size: 20px;
+	}
+	nav .social-media a {
+		color: #fff;
+		font-size: 20px;
+		top: 10px;
+		position: relative;
+		margin-right: 10px;
+	}
+}
+
+
+#home {
+	animation: effect 1s ease-in-out;
+	font-weight: bolder;
+  }
+
+  @keyframes effect {
+	from {
+	  opacity: 0;
+	  transform: translateY(20px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  .carousel-item { margin-top: 20px;
+	animation: item 1s ease-in-out;
+  }
+  h1,h2 { font-family: norican, cursive;}
+
+  #about { font-family: Raleway, sans-serif;
+	color: black;
+	animation: effect 1s ease-in-out;
+	font-weight: bolder;
+  }
+  
+  /* CART EFFECTS  */
+.card {
+        transition: all 0.1s ease;
+      }
+      
+.card:hover {
+        transform: translateY(-5px);
+        background-color:#f75eddda;
+        color: #0270a3e3;
+      }
+
+  
+
+ 
+	
