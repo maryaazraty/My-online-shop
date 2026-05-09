@@ -133,12 +133,10 @@ a {
 	border-radius: 40px;
 	animation: item 1s ease-in-out;
   }
-  #mySlider { border-radius: 45px ;}
-  
   h1,h2 { font-family: norican, cursive;}
 
   #about { font-family: Raleway, sans-serif;
-	color: black;
+	color: rgba(0, 0, 0, 0.849);
 	animation: effect 1s ease-in-out;
 	font-weight: bolder;
   }
