@@ -128,7 +128,9 @@ a {
 	  transform: translateY(0);
 	}
   }
+  
   .carousel-item { margin-top: 20px;
+	border-radius: 40px;
 	animation: item 1s ease-in-out;
   }
   h1,h2 { font-family: norican, cursive;}
