@@ -38,7 +38,7 @@ a {
 	position: relative;
 	top: -4px;
 }
-.navbar-nav {
+.navbar-nav { background-color: rgba(0, 0, 0, 0.185);
 	margin-top: 10px;
 }
 .navbar-nav .nav-item {
